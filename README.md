@@ -15,7 +15,7 @@ This project utilizes the following technologies and libraries:
 - Sass (SCSS) with BEM (Block, Element, Modifier) methodology
 
 ## Preview Link
-[DEMO LINK]
+[DEMO LINK] (https://anvbondar.github.io/phone-catalog-store/)
 
 ## Design Mockup Link
 [Design link] (https://www.figma.com/file/uEetgWenSRxk9jgiym6Yzp/Phone-catalog-redesign?node-id=1%3A2)
