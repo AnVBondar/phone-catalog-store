@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "./static/css/main.810700c3.chunk.css",
+    "main.js": "./static/js/main.0271a628.chunk.js",
+    "main.js.map": "./static/js/main.0271a628.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.8c9895b1.js",
+    "runtime-main.js.map": "./static/js/runtime-main.8c9895b1.js.map",
+    "static/js/2.8b72e1fe.chunk.js": "./static/js/2.8b72e1fe.chunk.js",
+    "static/js/2.8b72e1fe.chunk.js.map": "./static/js/2.8b72e1fe.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.810700c3.chunk.css.map": "./static/css/main.810700c3.chunk.css.map",
+    "static/js/2.8b72e1fe.chunk.js.LICENSE.txt": "./static/js/2.8b72e1fe.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "./static/media/icon_favorites_selected.d1cb0efa.svg",
+    "static/media/accessories_under_construction.png": "./static/media/accessories_under_construction.6e91de45.png",
+    "static/media/icon_arrow_left.svg": "./static/media/icon_arrow_left.c0d01b22.svg",
+    "static/media/icon_arrow_left_disabled.svg": "./static/media/icon_arrow_left_disabled.d9f4f8e0.svg",
+    "static/media/icon_arrow_right.svg": "./static/media/icon_arrow_right.4756c064.svg",
+    "static/media/icon_arrow_right_disabled.svg": "./static/media/icon_arrow_right_disabled.f3e02e62.svg",
+    "static/media/icon_arrow_up.svg": "./static/media/icon_arrow_up.a61ad2d0.svg",
+    "static/media/icon_close.svg": "./static/media/icon_close.d99189a5.svg",
+    "static/media/icon_home_address.svg": "./static/media/icon_home_address.e110292a.svg",
+    "static/media/icon_minus.svg": "./static/media/icon_minus.d4055954.svg",
+    "static/media/icon_minus_disabled.svg": "./static/media/icon_minus_disabled.cce48622.svg",
+    "static/media/icon_plus.svg": "./static/media/icon_plus.dea15724.svg",
+    "static/media/icon_search.svg": "./static/media/icon_search.eb670dd9.svg",
+    "static/media/icon_shopping_bag.svg": "./static/media/icon_shopping_bag.9d5d0d40.svg",
+    "static/media/logo.svg": "./static/media/logo.c9417692.svg",
+    "static/media/tablets_under_construction.png": "./static/media/tablets_under_construction.3cd5ed70.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c9895b1.js",
+    "static/js/2.8b72e1fe.chunk.js",
+    "static/css/main.810700c3.chunk.css",
+    "static/js/main.0271a628.chunk.js"
+  ]
+}
