@@ -1,3 +1,5 @@
+/* eslint-disable no-debugger */
+/* eslint-disable no-console */
 /* eslint-disable no-nested-ternary */
 import React, { useContext, useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
@@ -147,6 +149,10 @@ export const PhonePage = () => {
   const totalPages = Math.ceil(sortedProducts.length / +perPage);
   const groupedItems = getItems(sortedProducts, perPage);
   const currentGroupOfItems = groupedItems[currentPage - 1];
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [query]);
 
   return (
     <div className="phones-page">

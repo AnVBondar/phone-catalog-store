@@ -110,6 +110,10 @@ export const Header = () => {
         return;
       }
 
+      if (params.has('page')) {
+        params.set('page', '1');
+      }
+
       params.set('query', val);
       setSearchParams(params);
     }, 500);

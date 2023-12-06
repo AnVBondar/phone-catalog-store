@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import cn from 'classnames';
 import './DropDownMenu.scss';
 import '../../utils/textStyles.scss';
@@ -24,18 +24,18 @@ export const DropDownMenu: React.FC<Props> = ({
   title,
 }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   return (
     <>
       <label htmlFor="items_on_page" className="dd-label small-text-style">
         {title}
       </label>
-      <div className="dd-container">
+      <div className="dd-container" ref={dropdownRef}>
         <button
           type="button"
           className="dd-select"
           onClick={() => setIsOpen(v => !v)}
-          onBlur={() => setIsOpen(false)}
         >
           <span className="body-text-style">{sortBy}</span>
           <img
@@ -60,7 +60,7 @@ export const DropDownMenu: React.FC<Props> = ({
                 className={cn('dd-item body-text-style', {
                   'dd-item-select': sortBy === item.title,
                 })}
-                onMouseUp={() => {
+                onClick={() => {
                   setSortBy(item);
                   setIsOpen(false);
                 }}

@@ -135,7 +135,7 @@ export const ProductDetailsPage = () => {
           </a>
           <img src={ICONS.arrowRignt} alt="Arrow right" />
           <a
-            href="/phones"
+            href="#/phones"
             className="small-text-style"
             style={{ color: inlineStyles.colors.primaryColor }}
           >
