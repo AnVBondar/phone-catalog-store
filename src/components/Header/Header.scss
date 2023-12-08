@@ -164,16 +164,15 @@
 
   &_clear {
     top: 20px;
-    right: 12px;
+    right: 24px;
     position: absolute;
     height: 16px;
     width: 16px;
     background-color: transparent;
     border: none;
 
-    @include onDesktopLg {
+    @include onDesktopSm {
       top: 24px;
-      right: 24px;
     }
   }
 }
